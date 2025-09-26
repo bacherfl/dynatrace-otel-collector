@@ -3,7 +3,7 @@ dist:
   name: dynatrace-otel-collector
   description: Dynatrace distribution of the OpenTelemetry Collector
   output_path: ./build
-  otelcol_version: 0.132.0
+  otelcol_version: 0.136.0
   version: 0.34.0
 
 receivers:
