@@ -3,18 +3,18 @@ module testcommon
 go 1.24.4
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/xk8stest v0.133.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/testbed v0.133.0
+	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/xk8stest v0.159.0
+	github.com/open-telemetry/opentelemetry-collector-contrib/testbed v0.159.0
 	github.com/stretchr/testify v1.10.0
-	go.opentelemetry.io/collector/component v1.39.0
-	go.opentelemetry.io/collector/component/componenttest v0.133.0
-	go.opentelemetry.io/collector/config/configoptional v0.133.0
-	go.opentelemetry.io/collector/confmap v1.39.0
-	go.opentelemetry.io/collector/consumer/consumertest v0.133.0
-	go.opentelemetry.io/collector/featuregate v1.39.0
-	go.opentelemetry.io/collector/pdata v1.39.0
-	go.opentelemetry.io/collector/receiver/otlpreceiver v0.133.0
-	go.opentelemetry.io/collector/receiver/receivertest v0.133.0
+	go.opentelemetry.io/collector/component v1.65.0
+	go.opentelemetry.io/collector/component/componenttest v0.159.0
+	go.opentelemetry.io/collector/config/configoptional v0.136.0
+	go.opentelemetry.io/collector/confmap v1.65.0
+	go.opentelemetry.io/collector/consumer/consumertest v0.159.0
+	go.opentelemetry.io/collector/featuregate v1.65.0
+	go.opentelemetry.io/collector/pdata v1.65.0
+	go.opentelemetry.io/collector/receiver/otlpreceiver v0.159.0
+	go.opentelemetry.io/collector/receiver/receivertest v0.159.0
 	gopkg.in/yaml.v3 v3.0.1
 	k8s.io/api v0.33.4
 	k8s.io/apimachinery v0.33.4
