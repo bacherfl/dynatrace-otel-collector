@@ -1,5 +1,5 @@
 # A rockylinux image with systemd enabled
-FROM rockylinux:9.3
+FROM rockylinux:9.9
 
 ENV container docker
 
